@@ -34,6 +34,8 @@ public class ResultadoInvertido {
 
         System.out.println("O resultado da soma dos dois vetores inverso é: " + Arrays.toString(somaInv));
 
+        ler.close();
+
     }
 
 }

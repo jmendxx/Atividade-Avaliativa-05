@@ -1,5 +1,5 @@
 /**
- * @(#)ValorImpar.java
+ * @(#)ValorIndiceImpar.java
  *
  *
  * @author Juliana
@@ -7,7 +7,7 @@
  */
 import java.util.Arrays;
 import java.util.Scanner;   
-public class ValorImpar {
+public class ValorIndiceImpar {
     public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
 
@@ -17,7 +17,7 @@ public class ValorImpar {
         for(int i = 0; i < 5; i++){
             vetor[i] = ler.nextInt();
             
-            if(vetor[i] % 2 != 0){
+            if(i % 2 != 0){
                 vetor[i] *= 10;
             }
         }

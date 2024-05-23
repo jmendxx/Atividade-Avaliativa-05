@@ -23,5 +23,7 @@ public class CincoNumIntSoma {
      
         System.out.println("Os número digitados foram: " + num[0] + ", " + num[1] + ", " + num[2] + ", " + num[3] + ", " + num[4]);
         System.out.println("A soma desses números é: " + soma);
+
+        ler.close();
     }
 }

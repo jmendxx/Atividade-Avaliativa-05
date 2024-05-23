@@ -22,5 +22,7 @@ public class Idades {
         }
 
         System.out.println("As novas idades são: " + novasIdades[0] + ", " + novasIdades[1] + ", " + novasIdades[2] + ", " + novasIdades[3] + ", " + novasIdades[4] + ", " + novasIdades[5]);
+        
+        ler.close();
     }
 }

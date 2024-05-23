@@ -24,6 +24,8 @@ public class DoisVetores {
 
         System.out.println("Os números do primeiro vetor são: " + Arrays.toString(vetor1));
         System.out.println("Os números do segundo vetor são:" + Arrays.toString(vetor2));
+        
+        ler.close();
     }
     
 }
