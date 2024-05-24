@@ -26,12 +26,6 @@ public class ResultadoInvertido {
 
         }
 
-        /*for(int i = 0; i < somaVetor.length / 2; i++){
-            int temp = somaVetor[i];
-            somaVetor[i] = somaVetor[somaVetor.length- 1 - i];
-            somaVetor[somaVetor.length - 1 - i] = temp;
-        }*/
-
         System.out.println("O resultado da soma dos dois vetores inverso é: " + Arrays.toString(somaInv));
 
         ler.close();
